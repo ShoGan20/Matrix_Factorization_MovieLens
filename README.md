@@ -12,10 +12,10 @@ The aim is to perform Matrix Factorization using Movie Lens data set.
 
 ## Function
 
-1) So the code inputs the Movielens data set and splits it into training and testing data.
-2) It then divides the input matrix into Users and Events
-3) The function also has hyper parameters - Alpha(Learning Rate), Beta(dropping of learning rate throughout training), Lambda(Lowest Loss value), Epochs(Number of iterations the code will run)
-4) It then updates user and event matrice using Gradient Descent Matrix Factorization formula
+1) Code inputs the Movielens data set and splits it into training and testing data.
+2) Divides the input matrix into Users and Events
+3) The function uses hyper parameters - Alpha(Learning Rate), Beta(dropping of learning rate throughout training), Lambda(Lowest Loss value), Epochs(Number of iterations the code will run)
+4) Updates user and event matrice using Gradient Descent Matrix Factorization formula
 5) Calculates Mean Sqaured error using normalization of the values
 6) Returns two matrices user, event
 7) The predicted matrix is calculated by: user * transpose(item)
